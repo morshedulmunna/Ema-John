@@ -1,0 +1,39 @@
+.product {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid lightgray; */
+  margin-bottom: 2rem;
+}
+.product-info {
+  padding-left: 2rem;
+}
+#product-name {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 255);
+  font-weight: 400;
+}
+.features-price {
+  display: flex;
+  align-items: center;
+}
+.features-price .price #quentity {
+  margin-bottom: 2rem;
+}
+
+.features-price .price a {
+  text-decoration: none;
+  background-color: #ff9800;
+  padding: 7px 20px;
+  text-align: center;
+  color: #222;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.features-price .features {
+  margin-left: 4rem;
+}
+.features-price .features p {
+  font-weight: 500;
+  font-size: 18px;
+}

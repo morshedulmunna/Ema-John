@@ -1,0 +1,14 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.product-container {
+  margin: 1rem 2rem 1rem 20rem;
+}
+.cart-container {
+  margin: 1rem 1rem 1rem 0;
+  -webkit-box-shadow: -4px 2px 10px -3px rgba(0, 0, 0, 0.57);
+  box-shadow: -4px 2px 10px -3px rgba(0, 0, 0, 0.57);
+  padding-left: 2rem;
+}
